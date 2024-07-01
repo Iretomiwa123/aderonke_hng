@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"> Home</a>
+        <a href="#about">Profile</a>
+        <a href="#goals">Goals</a>
+        <a href="#objectives">Objectives</a>
+        <a href="#resources">Resources</a>
+    </header>
+    <marquee behavior="scroll" direction="left">
+        <section id="current-info">
+            <p>Current Time (UTC): <span id="time" data-testid="currentTimeUTC">14:30:00</span> Current Day: <span id="day" data-testid="currentDay">Monday</span></p>
+        </section>
+    </marquee>
+    
+    <section id="about">
+        <div class="profile">
+            <img src="ire.jpg" alt="Slack Profile Picture" data-testid="slackProfilePicture">
+            <div class="profile-info">
+                <h2>My Profile</h2>
+                <p>Slack Display Name: <span data-testid="slackDisplayName">Aderonke</span></p>
+                <p>Slack Email:  <span data-testid="slackEmail">adeyemooluwatoyin2018@gmail.com</span></p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="goals">
+        <h2>My Tech Goals</h2>
+        <ul>
+            <li>Learn more about frontend development and it's responsiveness.</li>
+            <li>Learn advanced JavaScript frameworks like React and Angular.</li>
+            <li>Contribute to open-source projects to enhance collaboration skills.</li>
+            <li>Master backend development with Node.js and Express.</li>
+            <li>Gain proficiency in DevOps tools and practices.</li>
+        </ul>
+    </section>
+    <section id="objectives">
+        <h2>My Objectives</h2>
+        <p>I plan to develop a diverse portfolio showcasing various applications and user interfaces built with React.
+            This will include creating both simple and complex applications that highlight my ability to use React's component-based
+            architecture effectively.</p>
+        <p>In addition to building projects and contributing to open source, I will stay up-to-date with the latest React trends and best practices. </p>
+        <p>Lastly, I plan to network and seek mentorship from experienced React developers. Joining local or virtual React meetups, 
+            attending React conferences, and seeking feedback on my work from seasoned professionals will provide valuable insights and accelerate my learning journey.</p>
+    </section>
+    <section id="resources">
+        <h2>Useful Resources</h2>
+        <ul>
+            <li><a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a></li>
+            <li><a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a></li>
+            <li><a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a></li>
+        </ul>
+    </section>
+    <footer>
+        <p> <p>&copy; 2024 My Tech Journey</p></p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
